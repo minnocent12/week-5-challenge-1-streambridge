@@ -43,7 +43,6 @@ OLLAMA_MODEL=llava npm run prototype
 - `.ppt-build/prototype_result.json` — committed result record from a prior run.
 - `.ppt-build/frame_*_up.jpg` — five chronological input frames.
 - `keynote_notes.md` — notes connecting the problem to the keynote.
-- `challenge_1.pptx` — submitted slide deck.
 
 ## Result status
 

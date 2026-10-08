@@ -1,6 +1,7 @@
 node_modules/
 .ppt-build/node_modules/
 .DS_Store
+challenge_1.pptx
 
 # Generated when the prototype runs; the committed run record remains available
 # as .ppt-build/prototype_result.json.
