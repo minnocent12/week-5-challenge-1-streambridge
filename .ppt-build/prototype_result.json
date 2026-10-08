@@ -1,0 +1,9 @@
+{
+  "input": "five chronological storyboard frames from the keynote's toy-kitchen demo segment",
+  "model": "moondream via local Ollama",
+  "prompt": "You are the activation module in a StreamBridge-style proactive cooking assistant.\nThe user asked once: 'Tell me how to prepare this food.'\nYou receive five video frames in chronological order from left to right.\nReturn exactly two lines:\nACTION: ANSWER_NOW or WAIT\nREASON: one short sentence grounded in what is visible.\nUse ANSWER_NOW only if the frames show a clear step transition or a moment where timely guidance would help.",
+  "output": "\" and water, which can be seen on the image of a room with a picture of a white box that reads \"The first one, while it's like.",
+  "formatMatched": false,
+  "verdict": "feasible with caveats",
+  "caveat": "This proxy exercises the StreamBridge activation decision but does not reproduce the paper's trained LLaVA-OneVision activation head, round-decay compression, or live latency."
+}

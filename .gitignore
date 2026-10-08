@@ -1,0 +1,19 @@
+node_modules/
+.ppt-build/node_modules/
+.DS_Store
+
+# Generated when the prototype runs; the committed run record remains available
+# as .ppt-build/prototype_result.json.
+.ppt-build/contact_sheet.jpg
+.ppt-build/prototype_result_v2.json
+.ppt-build/clip_strip*.jpg
+.ppt-build/prototype_result_llava7b.json
+.ppt-build/package.json
+.ppt-build/package-lock.json
+.ppt-build/render/
+.ppt-build/render3/
+.ppt-build/final_render/
+.ppt-build/final_render_v4/
+.ppt-build/final_render_v4_png/
+.ppt-build/keynote_problem_solution_draft.pptx
+.ppt-output/
